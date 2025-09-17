@@ -1,19 +1,20 @@
 <template>
-<div class="app">
+  <!-- <div class="app">
   <Person/>
-</div>
+</div> -->
+  <Person />
 </template>
 
 <script lang="ts">
 // import Person from './components/Person.vue'; // 明确写扩展名
 import Person from './components/Person.vue'
-export default{
-  name:'App',
-  components:{Person}
+export default {
+  name: 'App',
+  components: { Person },
 }
 </script>
 <style scoped>
-.app{
+.app {
   color: red;
 }
 </style>
