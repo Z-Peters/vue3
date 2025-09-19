@@ -2,15 +2,16 @@
   <!-- <div class="app">
   <Person/>
 </div> -->
-  <Person />
+  <!-- <Person />
+  <watchEffect /> -->
 </template>
 
 <script lang="ts">
-// import Person from './components/Person.vue'; // 明确写扩展名
 import Person from './components/Person.vue'
+import watchEffect from './components/watchEffect.vue'
 export default {
   name: 'App',
-  components: { Person },
+  components: { Person,watchEffect },
 }
 </script>
 <style scoped>
